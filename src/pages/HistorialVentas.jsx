@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getVentas } from "../services/ventaService";
+import { getVentas } from "../Services/VentaService";
 
     export default function HistorialVentas() {
     const [ventas, setVentas] = useState([]);

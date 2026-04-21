@@ -1,9 +1,9 @@
 import { useEffect, useState, useContext } from "react";
-import { getVentas } from "../services/ventaService";
-import { getProducts } from "../services/productService";
-import { getUsers } from "../services/userService";
-import { getProveedores } from "../services/proveedorService";
-import { AuthContext } from "../context/AuthContext";
+import { getVentas } from "../Services/VentaService";
+import { getProducts } from "../Services/ProductService";
+import { getUsers } from "../Services/UserService";
+import { getProveedores } from "../Services/ProveedorService";
+import { AuthContext } from "../Context/AuthContext";
 
 export default function Dashboard() {
     const { userRole, uid } = useContext(AuthContext);

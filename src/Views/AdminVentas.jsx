@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { getVentas } from "../services/ventaService";
-import { getUsers } from "../services/userService";
+import { getVentas } from "../Services/VentaService";
+import { getUsers } from "../Services/UserService";
 
 export default function AdminVentas() {
     const [ventas, setVentas] = useState([]);

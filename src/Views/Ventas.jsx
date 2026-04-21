@@ -5,7 +5,7 @@ import {
   deleteVenta,
   updateVenta,
   getVentasByUser
-} from "../services/ventaService";
+} from "../Services/VentaService";
 import { AuthContext } from "../Context/AuthContext";
 import { getProducts } from "../Services/ProductService";
 import Select from "react-select";

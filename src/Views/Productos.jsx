@@ -4,7 +4,7 @@ import {
   getProducts,
   updateProduct,
   deleteProduct
-} from "../services/productService";
+} from "../Services/ProductService";
 import { 
     getProveedores, 
     marcarCompraProcesada, 

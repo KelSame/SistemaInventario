@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getProducts } from "../services/productService";
+import { getProducts } from "../Services/ProductService";
 
 export default function InventarioAdmin() {
     const [productos, setProductos] = useState([]);

@@ -7,7 +7,7 @@ import {
     query,
     where
 } from "firebase/firestore";
-import { db } from "../firebase/config";
+import { db } from "../Firebase/Config";
 
 const userRef = collection(db, "users");
 

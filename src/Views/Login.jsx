@@ -1,9 +1,9 @@
 import { useState, useContext, useEffect } from "react";
-import { loginUser } from "../services/authService";
+import { loginUser } from "../Services/AuthService";
 import { AuthContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth, db } from "../firebase/config";
+import { auth, db } from "../Firebase/Config";
 import { doc, setDoc, collection, query, where, getDocs } from "firebase/firestore";
 
 export default function Login() {

@@ -6,8 +6,8 @@ import {
     deleteCompra,
     updateCompra,
     updateProveedor
-} from "../Services/proveedorService";
-import { getProducts } from "../services/productService";
+} from "../Services/ProveedorService";
+import { getProducts } from "../Services/ProductService";
 import Select from "react-select";
 
 export default function Proveedores() {

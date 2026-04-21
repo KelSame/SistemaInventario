@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../firebase/config";
+import { db } from "../Firebase/Config";
 import { AuthContext } from "../Context/AuthContext";
 
 export default function VentasRealizadas() {

@@ -7,7 +7,7 @@ import {
     reauthenticateWithCredential
 } from "firebase/auth";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../firebase/config";
+import { db } from "../Firebase/Config";
 // Nota: Si usas lucide-react o Heroicons, puedes importar iconos. Aquí usaré emojis para mantenerlo simple.
 
 export default function PerfilUsuario() {

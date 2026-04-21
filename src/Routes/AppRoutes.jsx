@@ -2,17 +2,17 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 
-import Login from "../views/Login";
-import Admin from "../views/Admin";
-import Dashboard from "../views/Dashboard";
-import Productos from "../views/Productos";
-import Ventas from "../views/Ventas";
-import Proveedores from "../views/Proveedores";
-import Usuarios from "../views/Usuarios";
-import VentasRealizadas from "../views/VentasRealizadas";
-import AdminVentas from "../views/AdminVentas";
+import Login from "../Views/Login";
+import Admin from "../Views/Admin";
+import Dashboard from "../Views/Dashboard";
+import Productos from "../Views/Productos";
+import Ventas from "../Views/Ventas";
+import Proveedores from "../Views/Proveedores";
+import Usuarios from "../Views/Usuarios";
+import VentasRealizadas from "../Views/VentasRealizadas";
+import AdminVentas from "../Views/AdminVentas";
 import ProtectedRoute from "./ProtectedRoute";
-import PerfilUsuario from "../views/PerfilUsuario";
+import PerfilUsuario from "../Views/PerfilUsuario";
 import InventarioAdmin from "../Views/InventarioAdmin";
 
 

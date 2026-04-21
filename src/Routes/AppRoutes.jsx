@@ -20,7 +20,7 @@ export default function AppRoutes() {
   const { userRole } = useContext(AuthContext);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SistemaInventario">
       <Routes>
 
         <Route path="/" element={<Login />} />
